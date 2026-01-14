@@ -1,5 +1,4 @@
-# Portfolio
-# Hi, I’m Ranjith 👋
+ #Ranjith Kumar Reddy Allam
 
 ## Senior Java Developer | Backend Engineer
 
