@@ -7,7 +7,7 @@ I am a **Java Developer with 6+ years of experience** designing, developing, and
 
 ---
 
-## 🔹 Technical Skills
+##  Technical Skills
 
 - **Languages:** Java, SQL  
 - **Frameworks:** Spring Boot, Spring MVC, Spring Security  
@@ -20,10 +20,10 @@ I am a **Java Developer with 6+ years of experience** designing, developing, and
 
 ---
 
-## 🔹 Professional Experience
+## >>> Professional Experience
 
-### 💼 Senior Java Developer
-**Enterprise Application Development**
+### >Senior Java Developer
+***Enterprise Application Development**
 
 - Designed and developed scalable **Spring Boot microservices**
 - Built secure REST APIs using **Spring Security & JWT**
@@ -33,9 +33,9 @@ I am a **Java Developer with 6+ years of experience** designing, developing, and
 
 ---
 
-## 🔹 Projects
+## >>> Projects
 
-### 🚀 Microservices-Based Banking Application
+### Microservices-Based Banking Application
 - Developed backend services using **Java & Spring Boot**
 - Implemented REST APIs for account, transaction, and user modules
 - Used MySQL for persistent data storage
@@ -44,7 +44,7 @@ I am a **Java Developer with 6+ years of experience** designing, developing, and
 
 ---
 
-### 🔐 Authentication & Authorization System
+### >>> Authentication & Authorization System
 - Built secure login and role-based access control
 - Implemented JWT-based authentication
 - Tools: Spring Security, Java, REST APIs  
@@ -52,7 +52,7 @@ I am a **Java Developer with 6+ years of experience** designing, developing, and
 
 ---
 
-### ⚙️ Order Management System
+### >>> Order Management System
 - Created backend services for order lifecycle management
 - Integrated database layer using Hibernate/JPA
 - Tools: Java, Spring MVC, MySQL  
@@ -60,10 +60,10 @@ I am a **Java Developer with 6+ years of experience** designing, developing, and
 
 ---
 
-## 🔹 Resume
+## >>> Resume
 📄 Resume available upon request  
 
-## 🔹 Contact
+## >>> Contact
 - LinkedIn: www.linkedin.com/in/ranjith-kumar-reddy-allam-014739192
 - GitHub: https://github.com/Ranjith000005
 - Email: ranjithreddyallam005@gmail.com
