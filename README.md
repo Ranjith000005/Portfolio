@@ -41,6 +41,6 @@ I build data-driven solutions using **Python, SQL, Power BI**, and **Machine Lea
 ---
 
 ## 🔹 Contact
-- LinkedIn: https://linkedin.com/in/your-link
+- LinkedIn: www.linkedin.com/in/ranjith-kumar-reddy-allam-014739192
 - GitHub: https://github.com/Ranjith000005
-- Email: your-email@gmail.com
+- Email: ranjithreddyallam005@gmail.com
