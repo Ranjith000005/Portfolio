@@ -3,233 +3,287 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ranjith | Java Full Stack Developer</title>
-  <meta name="description" content="Ranjith Kumar Reddy Allam — Java Full Stack Developer | Spring Boot | Microservices | React | AWS | Docker | Jenkins" />
+  <title>Ranjith Kumar Reddy Allam | Java Full Stack Developer</title>
+  <meta name="description" content="Ranjith Kumar Reddy Allam — Java Full Stack Developer | Spring Boot | Microservices | React | AWS" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="container">
-    <nav class="nav">
-      <a class="logo" href="#top">Ranjith</a>
-      <div class="nav-links">
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span class="brand-text">Ranjith</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
         <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
         <a href="#skills">Skills</a>
-        <a class="btn" href="#contact">Contact</a>
-      </div>
-    </nav>
-
-    <section id="top" class="hero">
-      <div class="hero-left">
-        <p class="pill">Java • Spring Boot • Microservices • React • AWS</p>
-        <h1>Java Full Stack Developer</h1>
-        <p class="subtitle">
-          Building scalable enterprise applications with Spring Boot microservices, modern React frontends,
-          and cloud deployments on AWS.
-        </p>
-
-        <div class="hero-actions">
-          <a class="btn" href="#projects">View Projects</a>
-          <a class="btn ghost" id="resumeLink" href="resume.pdf" target="_blank" rel="noreferrer">Resume</a>
-          <a class="btn ghost" href="https://github.com/Ranjith000005" target="_blank" rel="noreferrer">GitHub</a>
-          <a class="btn ghost" href="https://www.linkedin.com/in/ranjith-kumar-reddy-allam-014739192" target="_blank" rel="noreferrer">LinkedIn</a>
-        </div>
-
-        <div class="stats">
-          <div class="stat">
-            <div class="stat-num">7+</div>
-            <div class="stat-label">Years Experience</div>
-          </div>
-          <div class="stat">
-            <div class="stat-num">Spring Boot</div>
-            <div class="stat-label">Microservices</div>
-          </div>
-          <div class="stat">
-            <div class="stat-num">React</div>
-            <div class="stat-label">Redux • SPA</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="hero-right card">
-        <h3>What I Build</h3>
-        <ul>
-          <li>Spring Boot microservices & REST APIs</li>
-          <li>React/Redux single-page applications</li>
-          <li>Secure AWS deployments</li>
-          <li>CI/CD pipelines with Jenkins</li>
-          <li>Dockerized services & environments</li>
-        </ul>
-        <div class="card-footer">
-          <span class="tag">Open to Full Stack Roles</span>
-        </div>
-      </div>
-    </section>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <main class="container">
-    <section id="projects" class="section">
-      <div class="section-title">
-        <h2>Featured Projects</h2>
-        <p>Pin your best repos on GitHub and link them here.</p>
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <div class="hero-badge">Java • Spring Boot • Microservices • React • AWS</div>
+          <h1 class="hero-title">Ranjith Kumar Reddy Allam</h1>
+          <p class="hero-role">Java Full Stack Developer</p>
+          <p class="hero-subtitle">
+            Enterprise application development across backend services, modern UI, and cloud deployments.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn glass" id="resumeBtn" href="#" target="_blank" rel="noreferrer">Resume (PDF)</a>
+            <a class="btn glass" id="githubBtn" href="#" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="btn glass" id="linkedinBtn" href="#" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-card">
+              <div class="stat-value">7+</div>
+              <div class="stat-label">Years</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-value">Spring</div>
+              <div class="stat-label">Microservices</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-value">React</div>
+              <div class="stat-label">Redux • SPA</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="panel glass-panel">
+            <h2 class="panel-title">Core Strengths</h2>
+            <ul class="panel-list">
+              <li>Spring Boot microservices & REST APIs</li>
+              <li>React/Redux front-end development</li>
+              <li>AWS deployments and CI/CD pipelines</li>
+              <li>SQL + NoSQL data integration</li>
+              <li>Dockerized environments</li>
+            </ul>
+          </div>
+
+          <div class="panel glass-panel subtle">
+            <h2 class="panel-title">Top Skills</h2>
+            <div class="pill-grid" aria-label="Top skills">
+              <span class="pill">Java</span>
+              <span class="pill">Spring Boot</span>
+              <span class="pill">Microservices</span>
+              <span class="pill">React.js</span>
+              <span class="pill">AWS</span>
+              <span class="pill">Docker</span>
+              <span class="pill">Jenkins</span>
+              <span class="pill">SQL Server</span>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="grid">
-        <article class="project">
-          <div class="project-top">
-            <h3>Retail Order Tracking (Microservices)</h3>
-            <span class="badge">Spring Boot</span>
-          </div>
-          <p>Microservices for order, inventory, and shipment workflows with REST APIs and persistence.</p>
-          <div class="chips">
-            <span>Java</span><span>Spring Boot</span><span>REST</span><span>Hibernate</span><span>SQL</span><span>Docker</span>
-          </div>
-          <div class="links">
-            <a class="link" href="https://github.com/Ranjith000005" target="_blank" rel="noreferrer">Code</a>
-          </div>
-        </article>
+      <div class="hero-bg" aria-hidden="true"></div>
+    </section>
 
-        <article class="project">
-          <div class="project-top">
-            <h3>React Admin Dashboard</h3>
-            <span class="badge">React</span>
-          </div>
-          <p>Dashboard with routing, Redux state, filters, pagination, and API integration patterns.</p>
-          <div class="chips">
-            <span>React</span><span>Redux</span><span>SPA</span><span>REST</span><span>Bootstrap</span>
-          </div>
-          <div class="links">
-            <a class="link" href="https://github.com/Ranjith000005" target="_blank" rel="noreferrer">Code</a>
-          </div>
-        </article>
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Projects</h2>
+          <p class="section-subtitle">Selected work samples</p>
+        </div>
 
-        <article class="project">
-          <div class="project-top">
-            <h3>CI/CD Pipeline (Jenkins + Docker)</h3>
-            <span class="badge">DevOps</span>
-          </div>
-          <p>Automated build, test, and deploy pipeline with containerized services and repeatable releases.</p>
-          <div class="chips">
-            <span>Jenkins</span><span>Docker</span><span>AWS</span><span>JUnit</span>
-          </div>
-          <div class="links">
-            <a class="link" href="https://github.com/Ranjith000005" target="_blank" rel="noreferrer">Code</a>
-          </div>
-        </article>
+        <div class="cards-grid">
+          <article class="card glass-card">
+            <div class="card-top">
+              <h3 class="card-title">Retail Order Tracking (Microservices)</h3>
+              <span class="chip">Spring Boot</span>
+            </div>
+            <p class="card-text">
+              Microservices for order, inventory, and shipment workflows with REST APIs and persistence.
+            </p>
+            <div class="tags">
+              <span>Java</span><span>Spring Boot</span><span>REST</span><span>Hibernate</span><span>SQL</span><span>Docker</span>
+            </div>
+            <div class="card-links">
+              <a class="link" id="proj1Code" href="#" target="_blank" rel="noreferrer">Code</a>
+            </div>
+          </article>
+
+          <article class="card glass-card">
+            <div class="card-top">
+              <h3 class="card-title">React Admin Dashboard</h3>
+              <span class="chip">React</span>
+            </div>
+            <p class="card-text">
+              Admin dashboard with routing, state management, filtering, pagination, and API integrations.
+            </p>
+            <div class="tags">
+              <span>React</span><span>Redux</span><span>SPA</span><span>REST</span><span>Bootstrap</span>
+            </div>
+            <div class="card-links">
+              <a class="link" id="proj2Code" href="#" target="_blank" rel="noreferrer">Code</a>
+            </div>
+          </article>
+
+          <article class="card glass-card">
+            <div class="card-top">
+              <h3 class="card-title">CI/CD Pipeline (Jenkins + Docker)</h3>
+              <span class="chip">DevOps</span>
+            </div>
+            <p class="card-text">
+              Automated build, test, and deployment pipeline using Jenkins with Dockerized services.
+            </p>
+            <div class="tags">
+              <span>Jenkins</span><span>Docker</span><span>AWS</span><span>JUnit</span>
+            </div>
+            <div class="card-links">
+              <a class="link" id="proj3Code" href="#" target="_blank" rel="noreferrer">Code</a>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
 
     <section id="experience" class="section">
-      <div class="section-title">
-        <h2>Experience</h2>
-        <p>Aligned to enterprise full stack delivery.</p>
-      </div>
-
-      <div class="timeline">
-        <div class="item">
-          <div class="dot"></div>
-          <div class="item-body">
-            <h3>Kenvue (Johnson & Johnson) — Full Stack Developer</h3>
-            <p class="muted">React • Redux • Spring Boot • Microservices • AWS • Docker • Jenkins</p>
-          </div>
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Experience</h2>
+          <p class="section-subtitle">Enterprise delivery across multiple domains</p>
         </div>
 
-        <div class="item">
-          <div class="dot"></div>
-          <div class="item-body">
-            <h3>Schneider National — Full Stack Developer</h3>
-            <p class="muted">React • Spring Boot • Microservices • AWS • CI/CD</p>
+        <div class="timeline glass-panel">
+          <div class="tl-item">
+            <div class="tl-dot" aria-hidden="true"></div>
+            <div class="tl-body">
+              <div class="tl-title">Kenvue (Johnson & Johnson) — Full Stack Developer</div>
+              <div class="tl-meta">React • Redux • Spring Boot • Microservices • AWS • Docker • Jenkins</div>
+            </div>
           </div>
-        </div>
 
-        <div class="item">
-          <div class="dot"></div>
-          <div class="item-body">
-            <h3>Bank of America — Full Stack Developer</h3>
-            <p class="muted">Angular (2+) • Spring • REST/SOAP • JMS • WebSphere</p>
+          <div class="tl-item">
+            <div class="tl-dot" aria-hidden="true"></div>
+            <div class="tl-body">
+              <div class="tl-title">Schneider National — Full Stack Developer</div>
+              <div class="tl-meta">React • Spring Boot • Microservices • AWS • CI/CD</div>
+            </div>
           </div>
-        </div>
 
-        <div class="item">
-          <div class="dot"></div>
-          <div class="item-body">
-            <h3>Reliance Retail — Full Stack Developer</h3>
-            <p class="muted">AngularJS • JSP • Spring MVC • Hibernate • SQL Server</p>
+          <div class="tl-item">
+            <div class="tl-dot" aria-hidden="true"></div>
+            <div class="tl-body">
+              <div class="tl-title">Bank of America — Full Stack Developer</div>
+              <div class="tl-meta">Angular (2+) • Spring • REST/SOAP • JMS • WebSphere</div>
+            </div>
           </div>
-        </div>
 
-        <div class="item">
-          <div class="dot"></div>
-          <div class="item-body">
-            <h3>ITC Infotech — Java Developer</h3>
-            <p class="muted">JSP • Servlets • Struts • Hibernate • jQuery/AJAX</p>
+          <div class="tl-item">
+            <div class="tl-dot" aria-hidden="true"></div>
+            <div class="tl-body">
+              <div class="tl-title">Reliance Retail — Full Stack Developer</div>
+              <div class="tl-meta">AngularJS • JSP • Spring MVC • Hibernate • SQL Server</div>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-dot" aria-hidden="true"></div>
+            <div class="tl-body">
+              <div class="tl-title">ITC Infotech — Java Developer</div>
+              <div class="tl-meta">JSP • Servlets • Struts • Hibernate • jQuery/AJAX</div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <section id="skills" class="section">
-      <div class="section-title">
-        <h2>Skills</h2>
-        <p>Focused stack with strong ATS keywords.</p>
-      </div>
-
-      <div class="skill-grid">
-        <div class="skill-card">
-          <h3>Backend</h3>
-          <p>Java 8+, Spring Boot, Spring MVC, Microservices, Hibernate/JPA, REST/SOAP</p>
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Skills</h2>
+          <p class="section-subtitle">Technical stack</p>
         </div>
 
-        <div class="skill-card">
-          <h3>Frontend</h3>
-          <p>React.js, Redux, JavaScript, HTML5, CSS3, Bootstrap, Angular (2+), AngularJS, D3.js</p>
-        </div>
+        <div class="skills-grid">
+          <div class="skill-block glass-card">
+            <h3 class="skill-title">Backend</h3>
+            <p class="skill-text">Java 8+, Spring Boot, Spring MVC, Microservices, Hibernate/JPA, REST/SOAP</p>
+          </div>
 
-        <div class="skill-card">
-          <h3>Cloud / DevOps</h3>
-          <p>AWS (EC2, S3, IAM), Docker, Jenkins CI/CD, Git/GitHub</p>
-        </div>
+          <div class="skill-block glass-card">
+            <h3 class="skill-title">Frontend</h3>
+            <p class="skill-text">React.js, Redux, JavaScript, HTML5, CSS3, Bootstrap, Angular (2+), AngularJS, D3.js</p>
+          </div>
 
-        <div class="skill-card">
-          <h3>Databases</h3>
-          <p>SQL Server, MySQL, Oracle, MongoDB, Cassandra, DynamoDB</p>
+          <div class="skill-block glass-card">
+            <h3 class="skill-title">Cloud / DevOps</h3>
+            <p class="skill-text">AWS (EC2, S3, IAM), Docker, Jenkins CI/CD, Git/GitHub</p>
+          </div>
+
+          <div class="skill-block glass-card">
+            <h3 class="skill-title">Databases</h3>
+            <p class="skill-text">SQL Server, MySQL, Oracle, MongoDB, Cassandra, DynamoDB</p>
+          </div>
         </div>
       </div>
     </section>
 
     <section id="contact" class="section">
-      <div class="section-title">
-        <h2>Contact</h2>
-        <p>Let’s connect.</p>
-      </div>
-
-      <div class="contact-card">
-        <div class="contact-row">
-          <span class="contact-label">Email</span>
-          <a class="contact-value" href="mailto:ranjithreddyallam05@gmail.com">ranjithreddyallam05@gmail.com</a>
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Contact</h2>
+          <p class="section-subtitle">Reach out</p>
         </div>
 
-        <div class="contact-row">
-          <span class="contact-label">LinkedIn</span>
-          <a class="contact-value" href="https://www.linkedin.com/in/ranjith-kumar-reddy-allam-014739192" target="_blank" rel="noreferrer">
-            linkedin.com/in/ranjith-kumar-reddy-allam-014739192
-          </a>
+        <div class="contact-grid">
+          <div class="contact-card glass-panel">
+            <div class="contact-row">
+              <div class="contact-label">Email</div>
+              <a class="contact-value" href="mailto:ranjithreddyallam05@gmail.com">ranjithreddyallam05@gmail.com</a>
+            </div>
+            <div class="contact-row">
+              <div class="contact-label">LinkedIn</div>
+              <a class="contact-value" id="linkedinText" href="#" target="_blank" rel="noreferrer">Open Profile</a>
+            </div>
+            <div class="contact-row">
+              <div class="contact-label">GitHub</div>
+              <a class="contact-value" id="githubText" href="#" target="_blank" rel="noreferrer">Open Profile</a>
+            </div>
+            <div class="contact-row">
+              <div class="contact-label">Resume</div>
+              <a class="contact-value" id="resumeText" href="#" target="_blank" rel="noreferrer">Download PDF</a>
+            </div>
+          </div>
+
+          <div class="contact-card glass-panel subtle">
+            <h3 class="panel-title">Availability</h3>
+            <p class="contact-note">
+              Open to Full Stack roles (Java / Spring Boot / React) across enterprise product and platform teams.
+            </p>
+            <div class="pill-grid">
+              <span class="pill">Spring Boot</span>
+              <span class="pill">Microservices</span>
+              <span class="pill">React</span>
+              <span class="pill">AWS</span>
+              <span class="pill">Docker</span>
+              <span class="pill">Jenkins</span>
+            </div>
+          </div>
         </div>
 
-        <div class="contact-row">
-          <span class="contact-label">GitHub</span>
-          <a class="contact-value" href="https://github.com/Ranjith000005" target="_blank" rel="noreferrer">
-            github.com/Ranjith000005
-          </a>
-        </div>
+        <footer class="footer">
+          <div class="footer-inner">
+            <span>© <span id="year"></span> Ranjith Kumar Reddy Allam</span>
+            <a class="backtop" href="#top">Back to top</a>
+          </div>
+        </footer>
       </div>
     </section>
-
-    <footer class="footer">
-      <p>© <span id="year"></span> Ranjith Kumar Reddy Allam</p>
-    </footer>
   </main>
 
   <script src="script.js"></script>
 </body>
 </html>
+
