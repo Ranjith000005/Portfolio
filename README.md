@@ -42,14 +42,6 @@
   Jenkins • Docker • AWS  
   - Automated builds, tests, and deployments  
   - Repo: https://github.com/YOUR_GITHUB_USERNAME/REPO_NAME
-
-## Certifications / Learning (Optional)
-- Add only if real.
-
----
-
-### Contact
-📧 ranjithreddyallam05@gmail.com
   
 
 ## >>> Contact
