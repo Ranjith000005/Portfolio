@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ranjith | Java Full Stack Developer</title>
-  <link rel="stylesheet" href="styles.css"/>
+  <meta name="description" content="Java Full Stack Developer portfolio: Spring Boot, Microservices, React, AWS, Docker, Jenkins." />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="container">
     <nav class="nav">
-      <div class="logo">Ranjith</div>
+      <a class="logo" href="#top">Ranjith</a>
       <div class="nav-links">
         <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
@@ -18,19 +19,20 @@
       </div>
     </nav>
 
-    <section class="hero">
-      <div>
+    <section id="top" class="hero">
+      <div class="hero-left">
         <p class="pill">Java • Spring Boot • Microservices • React • AWS</p>
         <h1>Java Full Stack Developer</h1>
         <p class="subtitle">
-          7+ years building scalable enterprise apps with Spring Boot microservices,
-          React frontends, and cloud deployments on AWS.
+          Building scalable enterprise applications with Spring Boot microservices, modern React frontends,
+          and cloud deployments on AWS.
         </p>
 
         <div class="hero-actions">
           <a class="btn" href="#projects">View Projects</a>
-          <a class="btn ghost" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a class="btn ghost" href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="btn ghost" id="resumeLink" href="#" target="_blank" rel="noreferrer">Resume</a>
+          <a class="btn ghost" id="githubLink" href="#" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="btn ghost" id="linkedinLink" href="#" target="_blank" rel="noreferrer">LinkedIn</a>
         </div>
 
         <div class="stats">
@@ -44,19 +46,19 @@
           </div>
           <div class="stat">
             <div class="stat-num">React</div>
-            <div class="stat-label">Redux + SPA</div>
+            <div class="stat-label">Redux • SPA</div>
           </div>
         </div>
       </div>
 
-      <div class="card">
-        <h3>What I do</h3>
+      <div class="hero-right card">
+        <h3>What I Build</h3>
         <ul>
-          <li>Design & build Spring Boot microservices</li>
-          <li>Develop React/Redux SPAs</li>
-          <li>API integration (REST/SOAP)</li>
-          <li>CI/CD with Jenkins + Docker</li>
-          <li>AWS deployments (EC2, S3, IAM)</li>
+          <li>Spring Boot microservices & REST APIs</li>
+          <li>React/Redux single-page applications</li>
+          <li>Secure AWS deployments</li>
+          <li>CI/CD pipelines with Jenkins</li>
+          <li>Dockerized services & environments</li>
         </ul>
         <div class="card-footer">
           <span class="tag">Open to Full Stack Roles</span>
@@ -69,7 +71,7 @@
     <section id="projects" class="section">
       <div class="section-title">
         <h2>Featured Projects</h2>
-        <p>3–5 strong projects is enough. Keep them measurable.</p>
+        <p>Showcase 3–6 projects with clean descriptions and links.</p>
       </div>
 
       <div class="grid">
@@ -78,13 +80,15 @@
             <h3>Retail Order Tracking (Microservices)</h3>
             <span class="badge">Spring Boot</span>
           </div>
-          <p>Microservices for order, inventory & shipment workflows with REST APIs and persistence layer.</p>
+          <p>
+            Microservices for order, inventory, and shipment workflows with REST APIs and persistence.
+          </p>
           <div class="chips">
             <span>Java</span><span>Spring Boot</span><span>REST</span><span>Hibernate</span><span>SQL</span><span>Docker</span>
           </div>
           <div class="links">
-            <a href="https://github.com/YOUR_GITHUB_USERNAME/REPO_NAME" target="_blank" rel="noreferrer">Code</a>
-            <a href="#" target="_blank" rel="noreferrer">Live Demo</a>
+            <a class="link" href="#" target="_blank" rel="noreferrer">Code</a>
+            <a class="link" href="#" target="_blank" rel="noreferrer">Live</a>
           </div>
         </article>
 
@@ -93,27 +97,79 @@
             <h3>React Admin Dashboard</h3>
             <span class="badge">React</span>
           </div>
-          <p>Dashboard with routing, state management, tables, filters, pagination, and API integration.</p>
+          <p>
+            Dashboard with routing, Redux state, filters, pagination, and API integrations.
+          </p>
           <div class="chips">
             <span>React</span><span>Redux</span><span>SPA</span><span>REST</span><span>Bootstrap</span>
           </div>
           <div class="links">
-            <a href="https://github.com/YOUR_GITHUB_USERNAME/REPO_NAME" target="_blank" rel="noreferrer">Code</a>
-            <a href="#" target="_blank" rel="noreferrer">Live Demo</a>
+            <a class="link" href="#" target="_blank" rel="noreferrer">Code</a>
+            <a class="link" href="#" target="_blank" rel="noreferrer">Live</a>
           </div>
         </article>
 
         <article class="project">
           <div class="project-top">
-            <h3>CI/CD Pipeline Demo</h3>
+            <h3>CI/CD Pipeline (Jenkins + Docker)</h3>
             <span class="badge">DevOps</span>
           </div>
-          <p>Jenkins pipeline building Docker images and deploying to AWS with automated tests.</p>
+          <p>
+            Automated build, test, and deploy pipelines using Jenkins with Dockerized services.
+          </p>
           <div class="chips">
             <span>Jenkins</span><span>Docker</span><span>AWS</span><span>JUnit</span>
           </div>
           <div class="links">
-            <a href="https://github.com/YOUR_GITHUB_USERNAME/REPO_NAME" target="_blank" rel="noreferrer">Code</a>
+            <a class="link" href="#" target="_blank" rel="noreferrer">Code</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-top">
+            <h3>Spring Boot REST API Starter</h3>
+            <span class="badge">Backend</span>
+          </div>
+          <p>
+            Production-ready REST API template with validation, logging, and layered architecture.
+          </p>
+          <div class="chips">
+            <span>Spring Boot</span><span>REST</span><span>JUnit</span><span>Maven</span>
+          </div>
+          <div class="links">
+            <a class="link" href="#" target="_blank" rel="noreferrer">Code</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-top">
+            <h3>SQL Optimization Examples</h3>
+            <span class="badge">Data</span>
+          </div>
+          <p>
+            Query tuning patterns, indexing examples, and stored procedure samples for performance.
+          </p>
+          <div class="chips">
+            <span>SQL Server</span><span>MySQL</span><span>T-SQL</span>
+          </div>
+          <div class="links">
+            <a class="link" href="#" target="_blank" rel="noreferrer">Code</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-top">
+            <h3>AWS Deployment Notes</h3>
+            <span class="badge">Cloud</span>
+          </div>
+          <p>
+            Deployment steps and best practices for EC2, IAM roles, S3, and monitoring basics.
+          </p>
+          <div class="chips">
+            <span>AWS</span><span>EC2</span><span>S3</span><span>IAM</span><span>CloudWatch</span>
+          </div>
+          <div class="links">
+            <a class="link" href="#" target="_blank" rel="noreferrer">Code</a>
           </div>
         </article>
       </div>
@@ -121,30 +177,48 @@
 
     <section id="experience" class="section">
       <div class="section-title">
-        <h2>Experience Snapshot</h2>
-        <p>Quick highlights aligned with your resume.</p>
+        <h2>Experience</h2>
+        <p>A quick snapshot aligned with enterprise full stack delivery.</p>
       </div>
 
       <div class="timeline">
         <div class="item">
           <div class="dot"></div>
-          <div>
+          <div class="item-body">
             <h3>Kenvue (Johnson & Johnson) — Full Stack Developer</h3>
             <p class="muted">React • Redux • Spring Boot • Microservices • AWS • Docker • Jenkins</p>
           </div>
         </div>
+
         <div class="item">
           <div class="dot"></div>
-          <div>
+          <div class="item-body">
             <h3>Schneider National — Full Stack Developer</h3>
             <p class="muted">React • Spring Boot • Microservices • AWS • CI/CD</p>
           </div>
         </div>
+
         <div class="item">
           <div class="dot"></div>
-          <div>
+          <div class="item-body">
             <h3>Bank of America — Full Stack Developer</h3>
-            <p class="muted">Angular • Spring • SOAP/REST • JMS • WebSphere</p>
+            <p class="muted">Angular (2+) • Spring • REST/SOAP • JMS • WebSphere</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="dot"></div>
+          <div class="item-body">
+            <h3>Reliance Retail — Full Stack Developer</h3>
+            <p class="muted">AngularJS • JSP • Spring MVC • Hibernate • SQL Server</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="dot"></div>
+          <div class="item-body">
+            <h3>ITC Infotech — Java Developer</h3>
+            <p class="muted">JSP • Servlets • Struts • Hibernate • jQuery/AJAX</p>
           </div>
         </div>
       </div>
@@ -153,7 +227,7 @@
     <section id="skills" class="section">
       <div class="section-title">
         <h2>Skills</h2>
-        <p>Focused, ATS-friendly, and aligned with your resume.</p>
+        <p>Focused stack with strong ATS keywords.</p>
       </div>
 
       <div class="skill-grid">
@@ -161,14 +235,17 @@
           <h3>Backend</h3>
           <p>Java 8+, Spring Boot, Spring MVC, Microservices, Hibernate/JPA, REST/SOAP</p>
         </div>
+
         <div class="skill-card">
           <h3>Frontend</h3>
-          <p>React, Redux, JavaScript, HTML5, CSS3, Bootstrap, Angular (2+), AngularJS, D3.js</p>
+          <p>React.js, Redux, JavaScript, HTML5, CSS3, Bootstrap, Angular (2+), AngularJS, D3.js</p>
         </div>
+
         <div class="skill-card">
-          <h3>Cloud/DevOps</h3>
-          <p>AWS (EC2, S3, IAM), Docker, Jenkins, Git/GitHub</p>
+          <h3>Cloud / DevOps</h3>
+          <p>AWS (EC2, S3, IAM), Docker, Jenkins CI/CD, Git/GitHub</p>
         </div>
+
         <div class="skill-card">
           <h3>Databases</h3>
           <p>SQL Server, MySQL, Oracle, MongoDB, Cassandra, DynamoDB</p>
@@ -183,17 +260,27 @@
       </div>
 
       <div class="contact-card">
-        <p><b>Email:</b> <a href="mailto:ranjithreddyallam05@gmail.com">ranjithreddyallam05@gmail.com</a></p>
-        <p><b>LinkedIn:</b> <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">linkedin.com/in/your-profile</a></p>
-        <p><b>GitHub:</b> <a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank" rel="noreferrer">github.com/YOUR_GITHUB_USERNAME</a></p>
+        <div class="contact-row">
+          <span class="contact-label">Email</span>
+          <a class="contact-value" href="mailto:ranjithreddyallam05@gmail.com">ranjithreddyallam05@gmail.com</a>
+        </div>
+        <div class="contact-row">
+          <span class="contact-label">LinkedIn</span>
+          <a class="contact-value" id="linkedinLink2" href="#" target="_blank" rel="noreferrer">linkedin.com</a>
+        </div>
+        <div class="contact-row">
+          <span class="contact-label">GitHub</span>
+          <a class="contact-value" id="githubLink2" href="#" target="_blank" rel="noreferrer">github.com</a>
+        </div>
       </div>
     </section>
 
     <footer class="footer">
-      <p>© <span id="year"></span> Ranjith Kumar Reddy Allam • Built with GitHub Pages</p>
+      <p>© <span id="year"></span> Ranjith Kumar Reddy Allam</p>
     </footer>
   </main>
 
   <script src="script.js"></script>
 </body>
 </html>
+
