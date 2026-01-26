@@ -1,7 +1,7 @@
 const LINKS = {
   github: "https://github.com/Ranjith000005",
   linkedin: "https://www.linkedin.com/in/ranjith-kumar-reddy-allam-014739192",
-  resumePdf: "https://docs.google.com/document/d/11HVl7DkQUX0g9oRz9fxxXI_Ru-MOI-hr/export?format=pdf"
+  resumePdf: "https://drive.google.com/file/d/1qsdLRMSbTfL6p2BDmgOBPY12hY-ADGgM/view?usp=drive_link"
 };
 
 const setHref = (id, url) => {
